@@ -8,13 +8,16 @@ form.addEventListener('submit', (event) => {
   const topText = form.elements['top-text'].value;
   const bottomText = form.elements['bottom-text'].value;
 
+  //creates a seperate div from the form div to generate meme images
   const memeDiv = document.createElement('div');
   memeDiv.classList.add('meme');
-
+  
+  //meme images generated
   const memeImage = document.createElement('img');
   memeImage.src = imageUrl;
   memeDiv.appendChild(memeImage);
 
+  //top and bottom text 
   const topTextDiv = document.createElement('div');
   topTextDiv.textContent = topText;
   topTextDiv.classList.add('top-text');
@@ -33,9 +36,9 @@ form.addEventListener('submit', (event) => {
     memeDiv.remove();
   });
 
-  memeDiv.appendChild(document.createElement('br'));
+  memeDiv.appendChild(document.createElement('br')); 
+  //adds a line so the button is underneath the image instead of beside image
   memeDiv.appendChild(deleteButton);
-
   memesContainer.appendChild(memeDiv);
 
   form.reset();
