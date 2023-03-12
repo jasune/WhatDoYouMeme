@@ -1,0 +1,87 @@
+body {
+    background: url(feelsbadman-pepe-meme-memes-wallpaper-preview.jpg);
+    background-size: cover;
+}
+
+h1 { 
+    text-align: center;
+    font-family: impact;
+    font-size: 80px;
+    color: coral;
+}
+
+h4 {
+    text-align: center;
+    font-family: Courier New, monospace
+    padding-bottom: 10px;
+    color: green;
+}
+
+.form-container { 
+    text-align: center;
+}
+
+#input-1 {
+    margin: 10px  10px 10px 6px;
+    padding-right: 150px;   
+}
+
+#input-2 {
+    margin: 10px  10px 10px 6px;
+    padding-right: 150px;
+}
+
+#input-3 {
+    margin: 10px  10px 10px 6px;
+    padding-right: 150px;
+}
+
+label {
+    color: coral;
+}
+
+.meme {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #000;
+    position: relative;
+    text-align: center;
+  }
+  
+  .meme img {
+    max-width: 100%;
+  }
+  
+  .top-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    font-family: impact, charcoal, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    transform: translateX(-50%) ; 
+    color: white;
+    font-weight: bold;
+    
+  }
+  
+  .bottom-text {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    font-family: impact, charcoal, sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    transform: translateX(-50%) ;
+    color: white;
+    font-weight: bold;
+
+
+  }
+
+  .meme button {
+    display: block;
+    margin-top: 10px;
+  }
